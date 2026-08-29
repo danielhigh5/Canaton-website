@@ -1,0 +1,1 @@
+Place Canaton-owned product and project images in this folder.
