@@ -19,7 +19,7 @@ img{max-width:100%;display:block}
 .brand-text{display:flex;flex-direction:column;line-height:1}
 .brand-text strong{font-size:18px;letter-spacing:.16em}
 .brand-text small{font-size:9px;letter-spacing:.18em;margin-top:6px;color:var(--muted)}
-.brand-logo{height:54px;width:auto;display:block;object-fit:contain;}
+.brand-logo{height:24px;width:auto;display:block;object-fit:contain;}
 .site-nav{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:500}
 .site-nav a:not(.btn):hover{color:var(--accent)}
 .menu-toggle{display:none;border:0;background:none;font-size:25px}
