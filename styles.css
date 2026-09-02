@@ -805,3 +805,118 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
   }
 
 }
+
+/* ========================================
+   PVC LAMINATED INTERIOR WALL PANELS
+   ======================================== */
+
+.interior-pvc-section{
+  background:#f5f6f3;
+}
+
+.interior-pvc-feature{
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:70px;
+  align-items:center;
+}
+
+.interior-pvc-copy{
+  padding-right:15px;
+}
+
+.interior-pvc-copy h2{
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:52px;
+  line-height:1.1;
+  margin:16px 0 28px;
+  color:#111920;
+}
+
+.interior-pvc-copy > p:not(.eyebrow){
+  font-size:16px;
+  line-height:1.8;
+  color:#647582;
+  margin:0 0 18px;
+}
+
+.interior-pvc-image{
+  overflow:hidden;
+  background:#fff;
+  border:1px solid #dfe3e0;
+}
+
+.interior-pvc-image img{
+  width:100%;
+  height:440px;
+  object-fit:cover;
+  display:block;
+}
+
+.interior-pvc-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  margin-top:42px;
+  border-top:1px solid #d9ddda;
+  border-left:1px solid #d9ddda;
+}
+
+.interior-pvc-grid > div{
+  background:#fff;
+  padding:26px 24px;
+  border-right:1px solid #d9ddda;
+  border-bottom:1px solid #d9ddda;
+}
+
+.interior-pvc-grid span{
+  display:block;
+  color:#a06134;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.13em;
+  margin-bottom:20px;
+}
+
+.interior-pvc-grid h3{
+  margin:0 0 12px;
+  font-size:18px;
+  color:#111920;
+}
+
+.interior-pvc-grid p{
+  margin:0;
+  font-size:14px;
+  line-height:1.6;
+  color:#647582;
+}
+
+
+@media(max-width:900px){
+
+  .interior-pvc-feature{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .interior-pvc-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+
+@media(max-width:620px){
+
+  .interior-pvc-copy h2{
+    font-size:39px;
+  }
+
+  .interior-pvc-image img{
+    height:280px;
+  }
+
+  .interior-pvc-grid{
+    grid-template-columns:1fr;
+  }
+
+}
