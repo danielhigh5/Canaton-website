@@ -106,8 +106,8 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
 
   background:
     linear-gradient(
-      rgba(15,22,28,.48),
-      rgba(15,22,28,.48)
+      rgba(15,22,28,.38),
+      rgba(15,22,28,.38)
     ),
     url("images/wpc-products-hero.jpg");
 
