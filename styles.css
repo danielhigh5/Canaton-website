@@ -614,3 +614,70 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
   }
 
 }
+/* ========================================
+   TRADITIONAL WPC IMAGE GALLERY
+   ======================================== */
+
+.traditional-wpc-gallery{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  margin:45px 0 40px;
+}
+
+.traditional-wpc-image{
+  background:#fff;
+  border:1px solid #dfe3e0;
+  overflow:hidden;
+}
+
+.traditional-wpc-image img{
+  width:100%;
+  height:270px;
+  object-fit:cover;
+  display:block;
+}
+
+.traditional-wpc-caption{
+  padding:20px 22px 22px;
+}
+
+.traditional-wpc-caption span{
+  display:block;
+  color:#9a6238;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  margin-bottom:7px;
+}
+
+.traditional-wpc-caption strong{
+  display:block;
+  color:#111920;
+  font-size:17px;
+}
+
+
+/* Tablet */
+@media(max-width:900px){
+
+  .traditional-wpc-gallery{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+
+/* Mobile */
+@media(max-width:620px){
+
+  .traditional-wpc-gallery{
+    grid-template-columns:1fr;
+  }
+
+  .traditional-wpc-image img{
+    height:240px;
+  }
+
+}
