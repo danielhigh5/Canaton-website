@@ -102,6 +102,8 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
 
 /* Product Hero */
 .product-detail-hero{
+ min-height:650px;
+
   background:
     linear-gradient(
       rgba(15,22,28,.48),
@@ -112,6 +114,9 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
+
+  display:flex;
+  align-items:center;
 }
 .product-detail-hero .eyebrow{
   color:#9a6238;
