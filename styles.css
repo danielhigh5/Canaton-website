@@ -373,3 +373,167 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
   }
 
 }
+/* ========================================
+   SECOND-GENERATION WPC PRODUCT SERIES
+   ======================================== */
+
+.product-series-section{
+  padding:110px 0;
+  background:#fff;
+  border-top:1px solid #dfe3e0;
+}
+
+.product-series-head{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:start;
+  margin-bottom:55px;
+}
+
+.product-series-head .eyebrow{
+  color:#9a6238;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.18em;
+  margin-bottom:18px;
+}
+
+.product-series-head h2{
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:52px;
+  line-height:1.12;
+  margin:0;
+  color:#0f161c;
+}
+
+.product-series-head > div:last-child p{
+  font-size:17px;
+  line-height:1.8;
+  color:#596b79;
+  margin:0 0 18px;
+}
+
+.product-series-gallery{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+
+.product-series-image{
+  border:1px solid #dfe3e0;
+  background:#f6f7f4;
+  overflow:hidden;
+}
+
+.product-series-image img{
+  width:100%;
+  height:340px;
+  object-fit:cover;
+  display:block;
+}
+
+.product-image-caption{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:20px 22px;
+  background:#fff;
+}
+
+.product-image-caption span{
+  color:#8b6a50;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.product-image-caption strong{
+  color:#111920;
+  font-size:15px;
+}
+
+.product-feature-row{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  margin-top:28px;
+  border-top:1px solid #d9ddda;
+  border-left:1px solid #d9ddda;
+}
+
+.product-feature-row > div{
+  padding:28px 24px 30px;
+  border-right:1px solid #d9ddda;
+  border-bottom:1px solid #d9ddda;
+}
+
+.product-feature-row span{
+  display:block;
+  color:#a06134;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.12em;
+  margin-bottom:22px;
+}
+
+.product-feature-row strong{
+  display:block;
+  color:#10181e;
+  font-size:17px;
+  margin-bottom:10px;
+}
+
+.product-feature-row p{
+  margin:0;
+  color:#647582;
+  font-size:14px;
+  line-height:1.65;
+}
+
+
+/* Tablet */
+@media(max-width:900px){
+
+  .product-series-head{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+
+  .product-series-gallery{
+    grid-template-columns:1fr;
+  }
+
+  .product-feature-row{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+
+/* Mobile */
+@media(max-width:620px){
+
+  .product-series-section{
+    padding:75px 0;
+  }
+
+  .product-series-head h2{
+    font-size:39px;
+  }
+
+  .product-series-image img{
+    height:260px;
+  }
+
+  .product-image-caption{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .product-feature-row{
+    grid-template-columns:1fr;
+  }
+
+}
