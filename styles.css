@@ -102,11 +102,17 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
 
 /* Product Hero */
 .product-detail-hero{
-  background:#eef0ed;
-  padding:120px 0 110px;
-  border-bottom:1px solid #d9ddda;
-}
+  background:
+    linear-gradient(
+      rgba(15,22,28,.48),
+      rgba(15,22,28,.48)
+    ),
+    url("images/wpc-products-hero.jpg");
 
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .product-detail-hero .eyebrow{
   color:#9a6238;
   font-size:13px;
@@ -668,4 +674,21 @@ url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fi
   .traditional-wpc-image img{
     height:230px;
   }
+}
+.product-detail-hero h1{
+  color:#fff;
+}
+
+.product-detail-hero .product-detail-intro{
+  color:rgba(255,255,255,.88);
+}
+
+.product-detail-hero .eyebrow{
+  color:#fff;
+}
+
+.product-detail-hero .btn{
+  background:#fff;
+  color:#111920;
+  border-color:#fff;
 }
